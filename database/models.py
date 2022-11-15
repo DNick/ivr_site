@@ -18,6 +18,8 @@ class BaseModel(Model):
     class Meta:
         database = db
 
+print(3)
+
 
 class Users(BaseModel):
     chat_id = TextField()
