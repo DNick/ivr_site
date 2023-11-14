@@ -41,6 +41,7 @@ class Lesson(BaseModel):
     user_id = ForeignKeyField(Users)
     course_id = ForeignKeyField(Course)
     url = TextField()
+
     views = TextField(default=0)
 
 
